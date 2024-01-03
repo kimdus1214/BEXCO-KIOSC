@@ -1,38 +1,72 @@
-.App {
-  text-align: center;
+@font-face {
+  font-family: 'KIMMB';
+  src: url('./static/fonts/KIMMB.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'KIMML';
+  src: url('./static/fonts/KIMML.ttf') format('truetype');
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+:root{
+  --font-KIMMB:'KIMMB';
+  --font-KIMML:'KIMML';
+  --main-color: #2360c5;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+.mt-5{margin-top: 5px !important;}
+.mt-10{margin-top: 10px !important;}
+.mt-15{margin-top: 15px !important;}
+.mt-20{margin-top: 20px !important;}
+.mt-25{margin-top: 25px !important;}
+.mt-30{margin-top: 30px !important;}
+.mt-35{margin-top: 35px !important;}
+.mt-40{margin-top: 40px !important;}
+.mt-45{margin-top: 45px !important;}
+.mt-50{margin-top: 50px !important;}
+.mt-60{margin-top: 60px !important;}
+.mt-65{margin-top: 65px !important;}
+.mt-75{margin-top: 75px !important;}
+.mt-80{margin-top: 80px !important;}
+.mt-90{margin-top: 90px !important;}
+.mt-100{margin-top: 100px !important;}
+.mt-120{margin-top: 120px !important;}
+.mt-135{margin-top: 135px !important;}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+.pt-30{padding-top: 30px !important;}
+.pt-40{padding-top: 40px !important;}
+.pt-45{padding-top: 45px !important;}
+.pt-60{padding-top: 60px !important;}
+.pt-70{padding-top: 70px !important;}
+.pt-80{padding-top: 80px !important;}
+.pt-90{padding-top: 90px !important;}
+.pt-100{padding-top: 100px !important;}
+.pt-120{padding-top: 120px !important;}
 
-.App-link {
-  color: #61dafb;
-}
+.pb-35{padding-bottom: 35px !important;}
+.pb-40{padding-bottom: 40px !important;}
+.pb-45{padding-bottom: 45px !important;}
+.pb-60{padding-bottom: 60px !important;}
+.pb-65{padding-bottom: 65px !important;}
+.pb-70{padding-bottom: 70px !important;}
+.pb-80{padding-bottom: 80px !important;}
+.pb-95{padding-bottom: 95px !important;}
+.pb-100{padding-bottom: 100px !important;}
+.pb-110{padding-bottom: 110px !important;}
+.pb-120{padding-bottom: 120px !important;}
+.pb-135{padding-bottom: 135px !important;}
+.pb-140{padding-bottom: 140px !important;}
+.pb-160{padding-bottom: 160px !important;}
+.pb-165{padding-bottom: 165px !important;}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
+
+.App{width:1080px; margin: auto;}
+.en{font-family: 'Montserrat' !important;}
+.color-white{color: #fff !important;}
+.color-black{color: #000 !important;}
+.color-point{color: var(--main-color) !important;}
+.verLine{display: inline-block; width: 1px; height: 60px; background-color: var(--main-color);}
+.ft-35{font-size: 35px !important;}
+.ft-45{font-size: 45px !important;}
+.border-bottom--c9{border-bottom: 1px solid #c9c9c9;}

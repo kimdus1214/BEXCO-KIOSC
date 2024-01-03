@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 80 80">
+    <defs>
+        <linearGradient id="og11hs4saa" x1=".5" x2=".817" y2=".867" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#d90078"/>
+            <stop offset="1" stop-color="#004b9b"/>
+        </linearGradient>
+    </defs>
+    <g transform="rotate(180 951 200)">
+        <circle data-name="타원 2" cx="40" cy="40" r="40" transform="translate(1822 320)" style="fill:url(#og11hs4saa)"/>
+        <g data-name="Icon feather-arrow-down">
+            <path data-name="패스 15" d="M18 7.5v20" transform="translate(1844 342.5)" style="fill:none;stroke:#fff;stroke-linecap:round;stroke-linejoin:round;stroke-width:5px"/>
+            <path data-name="패스 16" d="m27.5 18-10 10-10-10" transform="translate(1844.5 342)" style="fill:none;stroke:#fff;stroke-linecap:round;stroke-linejoin:round;stroke-width:5px"/>
+        </g>
+    </g>
+</svg>

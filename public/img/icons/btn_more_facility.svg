@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+    <path data-name="사각형 2587" style="fill:none" d="M0 0h20v20H0z"/>
+    <g data-name="Icon feather-arrow-down">
+        <path data-name="패스 15" d="M0 0v14" transform="rotate(-90 6.5 3.5)" style="stroke:#fff;stroke-linecap:round;stroke-linejoin:round;stroke-width:3px;fill:none"/>
+        <path data-name="패스 16" d="M14 0 7 7 0 0" transform="rotate(-90 13.5 3.5)" style="stroke:#fff;stroke-linecap:round;stroke-linejoin:round;stroke-width:3px;fill:none"/>
+    </g>
+</svg>

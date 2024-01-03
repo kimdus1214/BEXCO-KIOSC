@@ -1,0 +1,194 @@
+#sub-contents{}
+.inner{padding: 0 80px;}
+
+.lists--bB-line{display: flex; flex-wrap: wrap;}
+.lists--bB-line>li{padding-bottom: 25px; margin-top: 50px; border-bottom: 2px solid #000; box-sizing: border-box;}
+.lists--bB-line>li>span{font-size: 20px; line-height: 1.75; letter-spacing: -0.5px; text-align: left; color: #666;}
+.lists--bB-line>li>p{font-size: 30px; font-weight: 500; letter-spacing: -0.75px; text-align: left; color: #000;}
+.lists--bB-line.cols-3.sp40>li{width: 280px; margin-right: 40px;}
+.lists--bB-line.cols-3.sp40>li:nth-child(3n){margin-right: 0;}
+.lists--bB-line.cols-3.sp40>li:last-child{margin-right: 0;}
+.cols-2{display: flex; flex-wrap: wrap;}
+.cols-2.sp20>li{width: 450px; margin-right: 20px; margin-top: 20px;}
+.cols-2.sp20>li:nth-child(2n){margin-right: 0;}
+.lists--box-line>li{border: solid 1px #ccc; box-sizing: border-box;}
+.lists--box-line.cols-2.sp20>li a{display: block; padding: 50px 40px 40px; box-sizing: border-box;}
+.lists--box-line.cols-2.sp20>li b{font-size: 25px; font-weight: 600; letter-spacing: -0.63px; text-align: left;}
+.lists--box-line.cols-2.sp20>li p{font-size: 20px; line-height: 1.25; letter-spacing: -0.5px; text-align: left;}
+
+.gradi-box{background-image: linear-gradient(to left, #d90078, #004b9b);}
+.gradi-box p{font-size: 35px; font-weight: 500; line-height: 1.26; letter-spacing: -0.88px; text-align: center; color: #fff;}
+.gradi--bB-box{position: relative; border: solid 1px #c9c9c9;}
+.gradi--bB-box::after{content: ""; position: absolute; bottom: 0; display: block; width: 100%; height: 4px; background-image: linear-gradient(to left, #d90078, #004b9b);}
+.gradi--bB-box p{font-size: 35px; line-height: 1.26; letter-spacing: -0.88px; text-align: center; color: #000;}
+
+.section{}
+.paraph{}
+.sub-tit{font-family: var(--font-KIMMB); font-size: 60px; font-weight: bold; letter-spacing: -3px; text-align: center; color: #000;}
+.section-tit{font-size: 50px; font-weight: bold; letter-spacing: -1.25px; text-align: center; color: #000;}
+.part-tit{font-size: 30px; font-weight: bold; line-height: 1.2; letter-spacing: -0.75px; color: #000;}
+.part-tit.bar{display: inline-block; padding-top: 8px; position: relative;}
+.part-tit.bar::before{content: ""; position: absolute; top: 0; left: 0; display: block; width: 20px; height: 3px; background-color: #000;}
+.default{font-size: 24px; line-height: 1.46; letter-spacing: -0.6px; text-align: center; color: #000;}
+.tit-en{font-family: 'Montserrat'; font-size: 25px; font-weight: bold; line-height: 1.2; letter-spacing: -0.63px; text-align: center; color: #555;}
+
+
+/* 회사개요 */
+/* About BEXCO */
+#about-bexco{}
+#about-bexco .bexco__info{background-color: #f5f5f5;}
+#about-bexco .bexco__info .facility-info{width: 100% !important;}
+#about-bexco .facility-info .arrow{display: inline-block;}
+#about-bexco .bexco__value .inner{display: flex; flex-direction: column; align-items: center;}
+#about-bexco .bexco__value .txt{display: flex; flex-direction: column; align-items: center;}
+#about-bexco .bexco__value .txt p{font-size: 25px; font-weight: 600; letter-spacing: -0.63px; color: #004b9b;}
+
+/* VISION */
+#vision{}
+#vision .vision{}
+#vision .vision .part{display: flex; flex-direction: column; align-items: center;}
+#vision .core-values{background: url('../../../public/img/sub/bg_grey.png') no-repeat center/cover;}
+#vision .core-values .diagram{width: 693px; margin: 45px auto 0;}
+#vision .core-values .diagram li{width: 100%; min-height: 230px; padding: 35px 60px 34px; display: flex; align-items: center; background-color: #fff; box-sizing: border-box;}
+#vision .core-values .diagram li + li{margin-top: 26px;}
+#vision .core-values .diagram li .txt{margin-left: 50px;}
+#vision .core-values .diagram li .txt p{text-align: left;}
+#vision .strategic-direction{position: relative;}
+#vision .strategic-direction::before{content: ""; position: absolute; bottom: 0; z-index: -1; display: block; width: 100%; height: 537px; background: url('../../../public/img/sub/con01_01_02_bg.png') no-repeat center/cover;}
+#vision .strategic-direction .diagram{width: 920px; height: 340px; margin: 45px auto 0; position: relative;}
+#vision .strategic-direction .diagram li{width: 340px; height: 340px; display: flex; justify-content: center; padding-top: 150px; border-radius: 50%; position: absolute;}
+#vision .strategic-direction .diagram li:nth-child(1){background-color: rgba(0,121,206,0.95); z-index: 1;}
+#vision .strategic-direction .diagram li:nth-child(2){left: 290px; z-index: 0; background-color: #2360c5;}
+#vision .strategic-direction .diagram li:nth-child(3){right: 0; background-color: rgba(0,121,206,0.95)}
+#vision .strategic-direction .diagram li b{font-family: var(--font-KIMMB);}
+#vision .strategic-direction .keyword{display: flex; justify-content: center}
+#vision .strategic-direction .keyword p + p{margin-left: 60px;}
+#vision .strategic-direction .keyword p{line-height: 2.29; font-weight: 500;}
+
+/* CI */
+#ci{}
+#ci .logo-mark{}
+#ci .ci__color{}
+#ci .ci__color .color-info{display: flex; justify-content: space-between;}
+#ci .ci__color .color-info .name b{font-size: 18px; font-weight: 600; letter-spacing: -0.45px; text-align: inherit; color: #000;}
+#ci .ci__color .color-info .name p{font-size: 18px; font-weight: 300; letter-spacing: -0.45px; text-align: inherit; color: #727272;}
+#ci .ci__color .color-info .left{text-align: left;}
+#ci .ci__color .color-info .center{margin-left: 70px; text-align: center;}
+#ci .ci__color .color-info .right{text-align: right;}
+#ci .logo-rule li{width: 470px; margin-right: 20px; margin-top: 70px;}
+#ci .logo-rule li:nth-child(2n){margin-right: 0;}
+
+/* 연혁 */
+#history{}
+#history .section-tit{font-weight: 500;}
+#history .history__info .inner-wide{padding: 60px 0; position: relative;}
+#history .history__info .progress-container {display: block; width: 1px; height: 100%; background-color: #c9c9c9; position: absolute; top:0; left: 20px}
+#history .history__info .progress-container .progress-bar {width: 2px; height: 0%; background-color: var(--main-color); position: absolute; top:0; left: 50%; transform: translateX(-50%); max-height: 100%; transition: all 0.4s ease;}
+#history .history__info .progress-container .progress-bar .circle{position: absolute; left: 50%; transform: translateX(-50%); bottom: 0; z-index: -1; display: block; width: 47px; height: 47px; border-radius: 50%; background-color: rgba(180,206,249,0.5);}
+#history .history__info .progress-container .progress-bar .circle::after{content: ""; position: absolute; left: 50%; top: 50%; transform: translate(-50%,-50%); display: block; width: 15px; height: 15px; border-radius: 50%; background-color: var(--main-color);}
+#history .history__info .history-con{padding-left: 86px; box-sizing: border-box;}
+#history .history__info .history-con strong{font-family: 'Montserrat'; font-size: 80px; line-height: 1.21; letter-spacing: -2px; text-align: left; color: #000;}
+#history .history__info .history-con .years{}
+#history .history__info .history-con .years + .years{margin-top: 118px;}
+#history .history__info .history-con .years li{display: flex; align-items: center;}
+#history .history__info .history-con .years li + li{margin-top: 10px;}
+
+/* 주요행사 */
+#major-events{}
+#major-events .majorEvents{}
+#major-events .majorEvents .btns{position: absolute; top: 690px; z-index: 3; display: flex; align-items: center; border: 0; background-color: transparent;}
+#major-events .majorEvents .btns span{font-size: 20px; line-height: 1; text-align: left;}
+#major-events .majorEvents .majorEvents-prev{left: 20px;}
+#major-events .majorEvents .majorEvents-prev span{color: #999;}
+#major-events .majorEvents .majorEvents-next{right: 20px;}
+#major-events .majorEvents .majorEvents-next span{color: var(--main-color);}
+#major-events .majorEvents .majorEvents__txt{}
+#major-events .majorEvents .majorEvents__txt .tit{display: flex; flex-direction: column; align-items: center;}
+#major-events .majorEvents .majorEvents__txt .tit b{font-size: 30px; text-align: center; color: #000;}
+#major-events .majorEvents .majorEvents__txt .con{}
+#major-events .majorEvents__imgs{}
+#major-events .majorEvents__imgs .swiper-pagination{position: static; margin-top: 40px;}
+#major-events .majorEvents__imgs .swiper-pagination .swiper-pagination-bullet{width: 20px; height: 20px; border: solid 2px #ccc; background-color: #fff; border-radius: 50%; box-sizing: border-box;}
+#major-events .majorEvents__imgs .swiper-pagination .swiper-pagination-bullet .swiper-pagination-bullet{margin-left: 10px;}
+#major-events .majorEvents__imgs .swiper-pagination .swiper-pagination-bullet-active{border: solid 2px #d90078; background-color: #d90078;}
+
+
+
+/* ESG경영 */
+/* 공통 시작*/
+.esg-section{display: flex; flex-direction: column; align-items: center;}
+.esg-section .part{display: flex; flex-direction: column; align-items: center;}
+.esg-section .tit{display: flex; justify-content: center; position: relative;}
+.esg-section .tit .double-quot{position: absolute; top: 0;}
+.esg-section .tit .double-quot.left{left: 0;}
+.esg-section .tit .double-quot.right{right: 0;}
+.esg-section .border-box{width: 960px; display: flex; flex-direction: column; align-items: center; position: relative; border: solid 1px #a9a9a9;}
+.esg-section .border-box--mainColor{width: 960px; display: flex; flex-direction: column; align-items: center; border: solid 1px var(--main-color); background-color: #fafafa;}
+.esg-section .border-box.shape::before{content: ""; position: absolute; top: -26px; left: 50%; transform: translateX(-50%); display: block; width: 260px; height: 52px; background: url('../../../public/img/icons/icon_frame.svg');}
+.esg-section .border-box .ethics-charter{width: 835px;}
+.esg-section .border-box .ethics-charter li{width: 100%; display: flex; align-items: center; padding: 20px 17px; border-bottom: solid 1px #a9a9a9; box-sizing: border-box;}
+.esg-section .border-box .ethics-charter li .num{width: 109px; height: 109px; display: flex; align-items: center; justify-content: center; background-color: var(--main-color);}
+.esg-section .border-box .ethics-charter li .num b{font-size: 30px; letter-spacing: -0.75px; text-align: left; color: #fff;}
+.esg-section .border-box .ethics-charter li .con{margin-left: 30px;}
+.esg-section .border-box .ethics-charter li .con p{text-align: left; font-weight: 500;}
+.esg-section .representative{display: flex; justify-content: center;}
+.esg-section .representative p{margin-left: 45px; font-size: 37px; line-height: 1.51; letter-spacing: -0.93px; text-align: left; color: #000;}
+/* 공통 끝*/
+
+/* BEXCO ESG */
+#BEXCO-ESG{}
+#BEXCO-ESG .visionByItem{}
+#BEXCO-ESG .visionByItem .vision-list{width: 100%; display: flex;}
+#BEXCO-ESG .visionByItem .vision-list>li{width: 290px; margin-right: 45px;}
+#BEXCO-ESG .visionByItem .vision-list>li:last-child{margin-right: 0;}
+#BEXCO-ESG .visionByItem .vision-list>li .txt{}
+#BEXCO-ESG .visionByItem .vision-list>li .tit{width: 100%; height: 127px; display: flex; align-items: center; justify-content: center;}
+#BEXCO-ESG .visionByItem .vision-list>li .tit h5{font-size: 30px; line-height: 1.2; letter-spacing: -0.75px; text-align: center;}
+#BEXCO-ESG .visionByItem .vision-list>li .con{height: 260px; padding-top: 28px; border-top: 1px solid #000; border-bottom: 1px solid #000;}
+#BEXCO-ESG .visionByItem .vision-list>li .con ol{width: 100%;}
+#BEXCO-ESG .visionByItem .vision-list>li .con ol li{display: flex; align-items: center;}
+#BEXCO-ESG .visionByItem .vision-list>li .con ol li + li{margin-top: 15px;}
+#BEXCO-ESG .visionByItem .vision-list>li .con ol li .num{display: inline-flex; align-items: center; justify-content: center; width: 30px; height: 30px; border-radius: 50%; background-color: #000;
+    font-family: 'Montserrat'; font-size: 20px; letter-spacing: -0.5px; text-align: center; color: #fff;}
+#BEXCO-ESG .visionByItem .vision-list>li .con ol li p{margin-left: 15px;}
+.vision--environment .tit h5{color: #0079ce;}
+.vision--social .tit h5{color: #3f73c9;}
+.vision--convernance .tit h5{color: #d61393;}
+#BEXCO-ESG .propulsion-system{}
+#BEXCO-ESG .propulsion-system .diagram{width: 960px; height: 184px; position: relative;}
+#BEXCO-ESG .propulsion-system .diagram li{position: absolute; width: 514px; height: 184px; display: flex; flex-direction: column; align-items: center; padding: 36px 0 43px; border-radius: 92px; border: solid 1px #707070; box-sizing: border-box;}
+#BEXCO-ESG .propulsion-system .diagram li:nth-child(2){right: 0;}
+#BEXCO-ESG .promotion-base{}
+#BEXCO-ESG .promotion-base ul li{display: flex;}
+#BEXCO-ESG .promotion-base ul li + li{margin-top: 10px;}
+#BEXCO-ESG .promotion-base ul li p{margin-left: 12px;}
+
+
+/* BEXCO 윤리 헌장 */
+#ethical-Management .tit{width: 470px;}
+#ethical-Management .tel-info{}
+#ethical-Management .tel-info ul{display: flex; justify-content: center;}
+#ethical-Management .tel-info ul li{display: flex; align-items: center;}
+#ethical-Management .tel-info ul li + li{margin-left: 110px;}
+#ethical-Management .tel-info ul li b{font-size: 30px; letter-spacing: -0.75px; color: #000;}
+#ethical-Management .tel-info ul li p{margin-left: 22px; font-size: 30px; letter-spacing: -0.75px; text-align: left; color: #000;}
+
+/* BEXCO 인권경영 선언문 */
+#humanRights-Management{}
+#humanRights-Management .tit{width: 560px;}
+
+/* BEXCO 안전ㆍ보건경영 */
+#SafetyHealth-Management{}
+#SafetyHealth-Management .tit{width: 560px;}
+
+
+/* 오시는 길 */
+#direction{}
+#direction .section-tit{text-align: left;}
+#direction .map{}
+#direction .map-info{}
+#direction .map-info .add-list{}
+#direction .map-info .add-list li + li{margin-top: 20px;}
+#direction .map-info .add-list li b{font-size: 30px; letter-spacing: -0.75px; text-align: left; color: #444;}
+#direction .map-info .add-list li p{margin-top: 5px; font-size: 30px; letter-spacing: -0.75px; text-align: left; color: #444;}
+#direction .map-info .tel{font-size: 40px; font-weight: 300; letter-spacing: -1px; text-align: left; color: #444;}
