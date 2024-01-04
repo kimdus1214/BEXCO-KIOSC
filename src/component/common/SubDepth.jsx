@@ -5,8 +5,8 @@ import { Link } from 'react-router-dom';
 
 function SubDepth({headerHeight}) {
     const menus = [
-        { link: "/about/Bexco", name: "회사개요" },
-        { link: "/about/Bexco", name: "ESG경영" },
+        { link: "/about/bexco", name: "회사개요" },
+        { link: "/esg/esg", name: "ESG경영" },
         // { link: "/about/Bexco", name: "주관행사" },
         { link: "/about/Bexco", name: "오시는길" },
     ];
