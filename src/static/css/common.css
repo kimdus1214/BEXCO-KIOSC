@@ -9,7 +9,7 @@
 #sub-depth .sub-depth__label{display: flex; align-items: center; justify-content: center; width: inherit; height: inherit; padding: 45px 0 37px; border: 0 none; outline: 0 none; background-color: #f5f7fa; cursor: pointer; box-sizing: border-box;}
 #sub-depth .sub-depth__label span{font-family: var(--font-KIMMB); font-size: 35px; font-weight: bold; letter-spacing: -1.75px; text-align: center; color: #000;}
 #sub-depth .sub-depth__label .accordion{position: absolute;right: 60px; top: 50%; transform: translateY(-50%) rotate(0); transition: all ease 0.5s;}
-#sub-depth .select{position: absolute; top: 120px; left: 0; z-index: 9; width: 100%; padding: 0; overflow: hidden; max-height: 0; transition: .3s ease-in;}
+#sub-depth .select{position: absolute; top: 120px; left: 0; z-index: 9; width: 100%; padding: 0; overflow: hidden; max-height: 0; transition: .3s ease-in; box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2);}
 #sub-depth .select .option{height: 100px; background-color: #fff; border-bottom: 1px solid #ccc; transition: .1s;}
 #sub-depth .select .option a{display: flex; align-items: center; justify-content: center; height: 100%;
     font-family: var(--font-KIMMB); font-size: 30px; letter-spacing: -1.75px; text-align: center; color: #000;}

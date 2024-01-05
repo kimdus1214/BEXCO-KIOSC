@@ -6,7 +6,7 @@ import BexcoEsg from '../../component/sub/esg/BexcoEsg';
 function BexcoEsgPage() {
   return (
     <div>
-        <Header />            
+        <Header isSubDepth />            
         <div id="sub-contents" class="pt-80">
             <section>
                 <h2 class="sub-tit">ESG경영</h2>

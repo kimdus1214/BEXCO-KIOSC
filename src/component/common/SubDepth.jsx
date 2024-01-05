@@ -1,5 +1,4 @@
-import React, {useState} from 'react';
-import './common.css'
+import React, {useState, useRef, useEffect} from 'react';
 import { Link } from 'react-router-dom';
 
 
@@ -8,16 +7,28 @@ function SubDepth({headerHeight}) {
         { link: "/about/bexco", name: "회사개요" },
         { link: "/esg/esg", name: "ESG경영" },
         // { link: "/about/Bexco", name: "주관행사" },
-        { link: "/about/Bexco", name: "오시는길" },
+        { link: "/location", name: "오시는길" },
     ];
 
     const [menu, setMenu] = useState("회사개요");
     const [show, setShow] = useState(false);
     const [scrolled, setScrolled] = useState(false);
+    const $subDepth = useRef(null);
+    const [subDepthHeight, setSubDepthHeight] = useState(0);
+
+    useEffect(()=>{
+        const updatesubDepthHeight = ()=>{
+            if($subDepth.current){
+                const height = $subDepth.current.clientHeight;
+                setSubDepthHeight(height);
+            }
+        }        
+        updatesubDepthHeight();
+    },[])
 
     const headerScrollStyle = ()=>{
         const scrollPosition = window.scrollY;
-        if(scrollPosition >= headerHeight) {
+        if(scrollPosition >= headerHeight + subDepthHeight) {
             setScrolled(true)
         }else {
             setScrolled(false)
@@ -27,7 +38,7 @@ function SubDepth({headerHeight}) {
 
 
     return (
-        <div id="sub-depth" className={scrolled ? "scroll" : ""}>
+        <div id="sub-depth" className={scrolled ? "scroll" : ""} ref={$subDepth}>
             <button className="sub-depth__label" onClick={()=>setShow(!show)}>
                 <span>{menu}</span>
                 <img src={process.env.PUBLIC_URL + '/img/icons/icon_open.svg'} alt="" className={"accordion" + (show ? " open" : "")} />

@@ -6,7 +6,7 @@ import SafetyHealth from '../../component/sub/esg/SafetyHealth';
 function SafetyHealthPage() {
   return (
     <div>
-        <Header />
+        <Header isSubDepth />
         <div id="sub-contens" className="pt-80">
             <section>
                 <h2 class="sub-tit">안전보건경영</h2>

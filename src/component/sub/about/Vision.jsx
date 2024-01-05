@@ -1,5 +1,4 @@
 import React from 'react';
-import '../sub.css';
 
 function Vision(props) {
     return (

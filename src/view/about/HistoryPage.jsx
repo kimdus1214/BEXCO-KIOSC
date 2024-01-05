@@ -7,7 +7,7 @@ import History from '../../component/sub/about/History';
 function HistoryPage(props) {
     return (
         <div>
-            <Header />            
+            <Header isSubDepth />            
             <div id="sub-contents" class="pt-80">
                 <section>
                     <h2 class="sub-tit">회사개요</h2>

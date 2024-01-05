@@ -6,7 +6,7 @@ import Ethical from '../../component/sub/esg/Ethical';
 function EthicalPage() {
   return (
     <div>
-        <Header />            
+        <Header isSubDepth />            
         <div id="sub-contents" class="pt-80">
             <section>
                 <h2 class="sub-tit">윤리경영</h2>

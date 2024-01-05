@@ -1,11 +1,10 @@
 import React from 'react';
-import '../sub.css';
 
 function Bexco(props) {
     return (        
         <div id="about-bexco">
             <div className="bexco__intro section mt-60">
-                <img src={process.env.PUBLIC_URL + "/img/sub/con01_01_01_01.png"} />
+                <img src={process.env.PUBLIC_URL + "/img/sub/con01_01_01_01.png"} alt="벡스코 이미지" />
                 <div className="paraph pt-100 pb-165">
                     <h3 className="section-tit">고객의 꿈을 실현하는 글로벌 MICE 플랫폼</h3>
                     <p className="default mt-30">
@@ -48,42 +47,42 @@ function Bexco(props) {
                             <span>시설안내</span>
                             <ul className="lists--box-line cols-2 sp20">
                                 <li>
-                                    <a href="">
+                                    <a href="https://bexco.co.kr/kor/CMS/Contents/Contents.do?mCode=MN051" target="_blank">
                                         <b className="default">제1전시장</b>
                                         <p className="default">지하 1층, 지상 7층 (주차면수 985면)</p>
             
                                         <div className="arrow mt-45">
-                                            <img src={process.env.PUBLIC_URL + '/img/icons/btn_more.svg'} alt="" />
+                                            <img src={process.env.PUBLIC_URL + '/img/icons/btn_more.svg'} alt="버튼 아이콘" />
                                         </div>
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="">
+                                    <a href="https://bexco.co.kr/kor/CMS/Contents/Contents.do?mCode=MN052" target="_blank">
                                         <b className="default">제2전시장</b>
                                         <p className="default">지하 2층, 지상 5층 (주차면수 1,672면)</p>
             
                                         <div className="arrow mt-45">
-                                            <img src={process.env.PUBLIC_URL + "/img/icons/btn_more.svg"} alt="" />
+                                            <img src={process.env.PUBLIC_URL + "/img/icons/btn_more.svg"} alt="버튼 아이콘" />
                                         </div>
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="">
+                                    <a href="https://bexco.co.kr/kor/CMS/Contents/Contents.do?mCode=MN222" target="_blank">
                                         <b className="default">오디토리움</b>
                                         <p className="default">지하 2층, 지상 5층 (주차면수 377면)</p>
             
                                         <div className="arrow mt-45">
-                                            <img src={process.env.PUBLIC_URL + "/img/icons/btn_more.svg"} alt="" />
+                                            <img src={process.env.PUBLIC_URL + "/img/icons/btn_more.svg"} alt="버튼 아이콘" />
                                         </div>
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="">
+                                    <a href="https://www.busan.go.kr/nurimaru/" target="_blank">
                                         <b className="default">누리마루APEC하우스</b>
                                         <p className="default">지상 중3층<br/>(연면적 2,994.5㎡ / 연면적 1,872.3㎡)</p>
             
                                         <div className="arrow mt-20">
-                                            <img src={process.env.PUBLIC_URL + "/img/icons/btn_more.svg"} alt="" />
+                                            <img src={process.env.PUBLIC_URL + "/img/icons/btn_more.svg"} alt="버튼 아이콘" />
                                         </div>
                                     </a>
                                 </li>

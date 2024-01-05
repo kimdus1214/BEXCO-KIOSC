@@ -6,7 +6,7 @@ import HumanRights from '../../component/sub/esg/HumanRights';
 function HumanRightsPage() {
   return (
     <div>
-        <Header />
+        <Header isSubDepth />
         <div id="sub-contents" class="pt-80">
             <section>
                 <h2 class="sub-tit">인권경영</h2>

@@ -6,7 +6,7 @@ import Performance from '../../component/sub/about/Performance';
 function PerformancePage() {
   return (
     <div>
-        <Header />            
+        <Header isSubDepth />            
         <div id="sub-contents" class="pt-80">
             <section>
                 <h2 class="sub-tit">주요행사</h2>
